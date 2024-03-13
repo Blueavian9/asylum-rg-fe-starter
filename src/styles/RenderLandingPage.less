@@ -41,16 +41,66 @@
     font-size: 1.2rem;
 }
 
-// .graphs-section {
-//  ADD THIS BACK IN WHEN YOU HAVE THE GRAPHS SECTION
-// }
+// ADD THIS BACK IN WHEN YOU HAVE THE GRAPHS SECTION
+.graphs-section {
+    .graph-wrapper {
+        display: flex;
+        justify-content: space-around;
+        align-items: center; 
+        
+        img {
+        width: 300px;
+        margin-bottom: 15px;
+    }
+    h3 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #404C4A;
+    }
+  .left-graph {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+  }
+  
+  .middle-graph {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+    img {
+        width: 175px;
+    }
+  }
 
-.view-more-data-btn-container {
+  .right-graph {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+    }
+  }
+  .top-btn-container {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 55px;
+    margin-bottom: 140px;
+  }
+}
+.view-more-data-btn-container { 
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin-top: 20px;
     height: 44px;
     width: 180px;
     margin: 0 auto;
-    text-align: center;
-    margin-bottom: 10%;
+    text-align: center; 
+    margin-bottom: 160px;
 }
 
 .middle-section {
@@ -75,16 +125,47 @@
     font-size: 1.4rem;
 }
 
-// .bottom-section {
 //      ADD THIS BACK IN WHEN YOU HAVE A BOTTOM SECTION
-// }
+ .bottom-section {
+    display: flex;
+    width: 1500px;
+    flex-direction: column;
+    align-items: center;
+    h1, h2, h3 {
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 600;
+        font-size: 48px;
+        color: #404C4A;
+        margin-top: 150px;
+    }  
+   .bottom-container {
+    display: flex;
+    justify-content: space-around;
+    .left-wrapper {
+        width: 33%;
+        text-align: center; 
+    }
+    .middle-wrapper{
+        width: 33%;
+        text-align: center; 
+    }
+    .right-wrapper {
+        width: 33%;
+        text-align: center; 
+    }
+  } 
+}
+
+
 
 .back-to-top {
-    width: 8%;
+    width: 80%;
     font-size: 1.2rem;
     cursor: pointer;
     color: black;
     margin: 5% auto;
+    font-weight: 600;
+    text-align: center;
 }
 
 .ant-space-align-center {
